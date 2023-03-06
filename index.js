@@ -52,7 +52,7 @@ console.log(programmingLanguage);
   //'Kotlin'
 //]
 
-
+  //NO 3
   let fruit = ['apple', 'mango', 'banana'];
 		function changeFruit( fruit ) {
     			fruit[2] = "orange";
@@ -62,8 +62,22 @@ console.log(programmingLanguage);
       
        console.log(changeFruit(fruit));//[ 'apple', 'mango', 'orange' ]
 
+    
+      //NO 4
+       function max(array){
+        maxmiumNumber = Math.max(...array)
+           return maxmiumNumber
+       }
+      const numbers = [4, 5, 10, -2]
+     console.log( max(numbers)) //10
 
-
-
+     
+     //NO 5
     
 
+     function valTimesIndex(arr) {
+        return arr.map((num, index) => num * index);
+      }
+
+      console.log(valTimesIndex(numbers))//[ 0, 5, 20, -6 ]
+      
